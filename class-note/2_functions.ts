@@ -1,5 +1,5 @@
 // 함수의 반환 값에 타입을 정의하는 방식
-function add(): number {
+function addNum(): number {
   return 10;
 }
 
