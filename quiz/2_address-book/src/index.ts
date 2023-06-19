@@ -93,7 +93,7 @@ class AddressBook {
   // 이넘을 사용한 타입 정의
   // findContactByPhone(PhoneType.phone)
 
-  addContact(contact: Contact) {
+  addContact(contact: Contact): void {
     this.contacts.push(contact);
   }
 
