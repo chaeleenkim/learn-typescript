@@ -37,3 +37,7 @@ var detailedItem: DetailedDropdown<string> = {
   value: "c",
   tag: "hello",
 };
+
+/* Best Common Type의 추론 방식 */
+// Union으로 묶어서 추론
+var arr = [1, 2, true]; // [number | boolean]
